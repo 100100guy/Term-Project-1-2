@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Sellwindow">
+   <children>
+      <ImageView fx:id="backgroundimage" fitHeight="432.0" fitWidth="626.0" pickOnBounds="true" preserveRatio="true" />
+      <AnchorPane layoutY="-1.0" prefHeight="432.0" prefWidth="626.0">
+         <children>
+            <TableView fx:id="tableview" layoutX="26.0" layoutY="44.0" prefHeight="316.0" prefWidth="559.0">
+              <columns>
+                <TableColumn fx:id="name" prefWidth="73.5999755859375" text="Name" />
+                <TableColumn fx:id="country" prefWidth="91.99993896484375" text="Country" />
+                  <TableColumn fx:id="position" prefWidth="91.20001220703125" text="Position" />
+                  <TableColumn fx:id="club" prefWidth="75.0" text="Club" />
+                  <TableColumn fx:id="age" prefWidth="75.0" text="Age" />
+                  <TableColumn fx:id="height" prefWidth="75.0" text="Height" />
+                  <TableColumn fx:id="salary" prefWidth="75.0" text="Salary" />
+              </columns>
+            </TableView>
+            <Button layoutX="27.0" layoutY="378.0" mnemonicParsing="false" onAction="#sellplayer" prefHeight="26.0" prefWidth="60.0" text="Sell" />
+            <Button layoutX="565.0" layoutY="378.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

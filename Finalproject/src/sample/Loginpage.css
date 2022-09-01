@@ -1,0 +1,45 @@
+.button{
+    -fx-border-width: 0 0 2px 0;
+    -fx-background-radius: 0;
+    -fx-background-color: black;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+    -fx-border-color: white ;
+    -fx-text-fill: white;
+}
+
+.button:focused {
+    -fx-border-color: black;
+    -fx-border-width: 0 0 4px 0;
+    -fx-border-style: solid, segments(1, 2);
+    -fx-border-radius: 0, 0;
+
+}
+
+.button:pressed {
+    -fx-background-color: maroon;
+    -fx-text-fill: white;
+}
+
+
+.text-field {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+}
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-background ;
+
+}
+.text-area{
+
+    -fx-font-family: 'Kalam';
+}
+.text-area .content {
+    -fx-background-color: white;
+    -fx-font-color: black;
+    -fx-font-size: 30px;
+}
+
+

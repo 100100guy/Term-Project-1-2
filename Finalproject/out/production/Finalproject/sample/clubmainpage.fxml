@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="332.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ClubmainpageController">
+   <children>
+      <Button layoutX="-163.0" layoutY="-92.0" mnemonicParsing="false" onAction="#Maxage" prefHeight="39.0" prefWidth="127.0" text=" Max age" />
+      <ImageView fx:id="backgroundimage" fitHeight="363.0" fitWidth="627.0" layoutX="-14.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true" />
+      <AnchorPane layoutX="5.0" prefHeight="347.0" prefWidth="591.0">
+         <children>
+            <Button fx:id="searchbynamebtn" layoutX="437.0" layoutY="9.0" mnemonicParsing="false" onAction="#Namesearch" prefHeight="30.0" prefWidth="138.0" text="Search by name" />
+            <Button layoutX="437.0" layoutY="45.0" mnemonicParsing="false" onAction="#positionsearch" prefHeight="30.0" prefWidth="138.0" text="Search by position" />
+            <Button layoutX="438.0" layoutY="81.0" mnemonicParsing="false" onAction="#countrysearch" prefHeight="30.0" prefWidth="138.0" text="Search by country" />
+            <Button layoutX="437.0" layoutY="119.0" mnemonicParsing="false" onAction="#Totalsalary" prefHeight="30.0" prefWidth="138.0" text="Total salary" />
+            <Button layoutX="442.0" layoutY="269.0" mnemonicParsing="false" onAction="#Maxheight" prefHeight="30.0" prefWidth="127.0" text=" Max height" />
+            <Button layoutX="443.0" layoutY="236.0" mnemonicParsing="false" onAction="#Maxsalary" prefHeight="30.0" prefWidth="127.0" text=" Max salary" />
+            <Button layoutX="438.0" layoutY="158.0" mnemonicParsing="false" onAction="#salarysearch" prefHeight="30.0" prefWidth="138.0" text="Search by salary range" />
+            <Button layoutX="427.0" layoutY="196.0" mnemonicParsing="false" onAction="#Countrywisecount" prefHeight="35.0" prefWidth="158.0" text="Country wise count" />
+            <Button layoutX="40.0" layoutY="232.0" mnemonicParsing="false" onAction="#buy" prefHeight="39.0" prefWidth="68.0" text="Buy" />
+            <Button layoutX="126.0" layoutY="232.0" mnemonicParsing="false" onAction="#sell" prefHeight="39.0" prefWidth="75.0" text="Sell" />
+            <Label fx:id="club" layoutX="126.0" layoutY="51.0" prefHeight="30.0" prefWidth="298.0" textFill="#fffbfb">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="image" fitHeight="72.0" fitWidth="91.0" layoutX="47.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="backbtn" layoutX="40.0" layoutY="285.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
